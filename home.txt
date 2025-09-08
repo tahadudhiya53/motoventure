@@ -1,0 +1,25 @@
+home 
+
+channel
+    home
+    riders
+
+hero 
+    heading
+    img
+
+
+home builder
+
+home
+    home section
+        img 
+        heading
+        text
+        link
+riders
+    riders section
+        heading
+        text
+        enteris
+            

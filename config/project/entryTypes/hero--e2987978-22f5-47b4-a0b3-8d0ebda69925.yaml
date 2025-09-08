@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  6506a7b0-1843-4a59-9a69-9958d7eebcf1:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-06T10:31:36+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45534926-4ddd-4d2e-8fe6-df9605bd1b54 # text
+            handle: heroHeading
+            includeInCards: false
+            instructions: null
+            label: 'hero Heading'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f0bbf09-d66c-44d9-83b4-314839156bf6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T10:31:36+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 82230e9e-73fe-48b7-a22b-39ff2db81243 # img
+            handle: heroBgImg
+            includeInCards: false
+            instructions: null
+            label: 'hero bg img'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3c095b81-81f1-489a-b38d-7be42576a110
+            userCondition: null
+            warning: null
+            width: 100
+        name: hero
+        uid: d3e6e928-d63c-4202-bfe1-5c09fba335cd
+        userCondition: null
+handle: hero
+hasTitleField: false
+icon: null
+name: hero
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

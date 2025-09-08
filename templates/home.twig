@@ -1,0 +1,74 @@
+{% extends "index" %}
+{% block content %}
+	{% for block in entry.pageBuilder.all() %}
+		{# Hero Block #}
+		{% if block.type == "hero" %}
+			{% set image = block.heroBgImg.one() ?? null %}
+			<div class="hero" {% if image %} style="background-image: url('{{ image.url }}')" {% endif %}>
+				<div class="hero__content content-column">
+					<h1>{{ block.heroHeading }}</h1>
+				</div>
+			</div>
+		{% endif %}
+
+		{# Story Block #}
+		{% if block.type.handle == "Story" %}
+			<class="featured-story">
+				<div class="featured-story__flex content-column">
+					<div class="featured-story__content">
+						<h2>{{ block.storyHeading }}</h2>
+						<p>{{ block.storyText }}</p>
+
+						{% if block.storyLink %}
+							<p>
+								<a href="{{ block.storyLink }}" class="cta-link">Discover the full story</a>
+							</p>
+						{% endif %}
+					</div>
+					<div class="featured-story__slider">
+						<div class="slider">
+
+							<div class="slider__nav">
+								<button type="button" class="slider__prev">
+									<img src="{{ siteUrl }}static/images/arrow-prev.svg" alt="Previous">
+								</button>
+								<button type="button" class="slider__next">
+									<img src="{{ siteUrl }}static/images/arrow-next.svg" alt="Next">
+								</button>
+							</div>
+							<div class="slider__reel">
+								{% for image in block.storySlider.all() %}
+									<img src="{{ image.url }}" alt="{{ block.storyHeading }}" class="slider__image">
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	{% endfor %}
+	{# Riders Block #}	
+	<section class="section section--more-padding section--light section--angled-top">
+		<div class="content-column centered">
+			<h2>Meet the Riders</h2>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+			<div class="flex-columns">
+				<div class="flex-columns__item">
+					<img src="{{ siteUrl }}static/images/photos/henry-potter.jpg" alt="Henry Potter" class="flex-columns__image">
+					<h4>Henry Potter</h4>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+				</div>
+				<div class="flex-columns__item">
+					<img src="{{ siteUrl }}static/images/photos/sarah-bradbury.jpg" alt="Sarah Bradbury" class="flex-columns__image">
+					<h4>Sarah Bradbury</h4>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+				</div>
+				<div class="flex-columns__item">
+					<img src="{{ siteUrl }}static/images/photos/jack-starfield.jpg" alt="Jack Starfield" class="flex-columns__image">
+					<h4>Jack Starfield</h4>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

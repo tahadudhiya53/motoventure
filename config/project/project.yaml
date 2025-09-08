@@ -1,0 +1,43 @@
+dateModified: 1757160650
+email:
+  fromEmail: tahasfs53@gmail.com
+  fromName: motoventure
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  upload:
+    hasUrls: true
+    name: Upload
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    1e0a3dcf-4558-41af-b7d8-8d708588c55f: motoventure # motoventure
+    2bd5e877-57f1-4644-b7af-6a48d7bcd866: story # story
+    292d97a9-bc1f-4260-a69a-b2a7c0a2c5c9: Uploads # Uploads
+    00380d6a-29ac-491d-987f-73211b05b090: storySlider # storySlider
+    806d3562-2547-4dee-863d-7b987984fe44: 'page Builder' # page Builder
+    9326a226-f7d4-48b3-bf44-45175c2ea603: motoventure # motoventure
+    62418d5f-4af6-41a3-a9e0-30dccf9cf06f: links # links
+    82230e9e-73fe-48b7-a22b-39ff2db81243: img # img
+    45534926-4ddd-4d2e-8fe6-df9605bd1b54: text # text
+    a74cc84d-eb39-449b-8092-8c9ca0e97a92: story # story
+    d1b126a9-ec68-4a6d-82a1-9efd4b9d793e: hero # hero
+    d35798ac-1168-423f-b8a6-fda5318b962f: Home # Home
+    e2987978-22f5-47b4-a0b3-8d0ebda69925: hero # hero
+    f2f3c606-7d86-48fc-94cb-2c8d58bcd4ad: 'page Builder' # page Builder
+    f55eab90-ff2a-4ef7-aeec-0a27630a84d8: home # home
+system:
+  edition: solo
+  live: true
+  name: motoventure
+  schemaVersion: 5.8.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
