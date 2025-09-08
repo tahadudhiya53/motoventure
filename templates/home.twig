@@ -13,7 +13,7 @@
 
 		{# Story Block #}
 		{% if block.type.handle == "Story" %}
-			<class="featured-story">
+			<div class="featured-story">
 				<div class="featured-story__flex content-column">
 					<div class="featured-story__content">
 						<h2>{{ block.storyHeading }}</h2>
@@ -46,29 +46,27 @@
 				</div>
 			</div>
 		{% endif %}
+
+		{# Riders Block #}
+		{% if block.type.handle == "riders" %}
+			<section class="section section--more-padding section--light section--angled-top">
+				<div class="content-column centered">
+					<h2>Meet the Riders</h2>
+					<p>Ride with passion, respect the road, and stay safe at every turn</p>
+					<div class="flex-columns">
+						{% for rider in block.ridersList.all() %}
+							<div class="flex-columns__item">
+								{% set riderImage = rider.Img.one() %}
+								{% if riderImage %}
+									<img src="{{ riderImage.url }}" alt="{{ rider.riderName }}" class="flex-columns__image">
+								{% endif %}
+								<h4>{{ rider.riderName }}</h4>
+								<p>{{ rider.feedback }}</p>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+		{% endif %}
 	{% endfor %}
-	{# Riders Block #}	
-	<section class="section section--more-padding section--light section--angled-top">
-		<div class="content-column centered">
-			<h2>Meet the Riders</h2>
-			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-			<div class="flex-columns">
-				<div class="flex-columns__item">
-					<img src="{{ siteUrl }}static/images/photos/henry-potter.jpg" alt="Henry Potter" class="flex-columns__image">
-					<h4>Henry Potter</h4>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-				</div>
-				<div class="flex-columns__item">
-					<img src="{{ siteUrl }}static/images/photos/sarah-bradbury.jpg" alt="Sarah Bradbury" class="flex-columns__image">
-					<h4>Sarah Bradbury</h4>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-				</div>
-				<div class="flex-columns__item">
-					<img src="{{ siteUrl }}static/images/photos/jack-starfield.jpg" alt="Jack Starfield" class="flex-columns__image">
-					<h4>Jack Starfield</h4>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-				</div>
-			</div>
-		</div>
-	</section>
 {% endblock %}
