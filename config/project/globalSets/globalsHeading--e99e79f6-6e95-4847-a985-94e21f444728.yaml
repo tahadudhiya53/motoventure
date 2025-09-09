@@ -1,0 +1,30 @@
+fieldLayouts:
+  54e43850-dbcc-45aa-b742-7cd3d3d66f25:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-09T05:03:07+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45534926-4ddd-4d2e-8fe6-df9605bd1b54 # text
+            handle: storiesHeading
+            includeInCards: false
+            instructions: null
+            label: 'Stories Heading'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4180f848-3ab8-4fdf-931c-3e2e64371fcc
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Stories Heading'
+        uid: 2fad87f5-514d-4c02-b9e8-a0959027e4c2
+        userCondition: null
+handle: globalsHeading
+name: 'globals Heading'
+sortOrder: 1

@@ -1,0 +1,91 @@
+color: null
+description: null
+fieldLayouts:
+  30d17934-c9f9-4086-9ba0-7abef3afa512:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-08T12:48:59+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 82230e9e-73fe-48b7-a22b-39ff2db81243 # img
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 35ec43bb-ba0b-44b5-8f28-1971bb61bb24
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-08T12:48:59+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45534926-4ddd-4d2e-8fe6-df9605bd1b54 # text
+            handle: heading
+            includeInCards: false
+            instructions: null
+            label: Heading
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: feda8a2f-31af-444f-93ed-b09089335e8b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-08T12:48:59+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45534926-4ddd-4d2e-8fe6-df9605bd1b54 # text
+            handle: text2
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f301a87e-580e-4fb4-8ba4-f9cfff421ff7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-08T12:48:59+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 62418d5f-4af6-41a3-a9e0-30dccf9cf06f # links
+            handle: storyLinks
+            includeInCards: false
+            instructions: null
+            label: 'story Links'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5c873dcf-4670-492c-a9b4-78402654f2cb
+            userCondition: null
+            warning: null
+            width: 100
+        name: stories
+        uid: 76e6be28-10d9-45df-bdea-67648173ea69
+        userCondition: null
+handle: storiesfield
+hasTitleField: false
+icon: null
+name: storiesField
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

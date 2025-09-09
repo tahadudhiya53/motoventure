@@ -1,36 +1,36 @@
 color: null
 description: null
 fieldLayouts:
-  fa3e1d77-b4c9-46ef-9450-b534538cb451:
+  f5f3247f-cd6f-4026-a567-c8feeba11856:
     cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2025-09-06T10:33:01+00:00'
+            dateAdded: '2025-09-08T13:01:24+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: d1b126a9-ec68-4a6d-82a1-9efd4b9d793e # hero
-            handle: null
+            fieldUid: 45534926-4ddd-4d2e-8fe6-df9605bd1b54 # text
+            handle: storiesHeading
             includeInCards: false
             instructions: null
-            label: null
+            label: storiesHeading
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 99352bd8-55f6-41d4-8094-5cb1b34ee986
+            uid: ba18c243-ec2c-4ca4-8f0f-cc1d1ce06446
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 1e7fd8f2-54d6-4d37-bf7a-9ed0c1392528
+        uid: d5442b68-b346-4e29-b17e-8b3ce9f935ff
         userCondition: null
-handle: pageBuilder
+handle: storiesHeading
 hasTitleField: false
 icon: null
-name: 'page Builder'
+name: storiesHeading
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

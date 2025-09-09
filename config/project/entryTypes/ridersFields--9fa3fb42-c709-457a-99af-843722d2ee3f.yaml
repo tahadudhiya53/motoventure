@@ -1,0 +1,74 @@
+color: null
+description: null
+fieldLayouts:
+  e47434f8-d40e-46f6-a9eb-c82c58924017:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-08T07:11:30+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 82230e9e-73fe-48b7-a22b-39ff2db81243 # img
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8eb4f839-bc63-4845-b345-edca53f17be4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-08T07:11:30+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45534926-4ddd-4d2e-8fe6-df9605bd1b54 # text
+            handle: riderName
+            includeInCards: false
+            instructions: null
+            label: riderName
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5cc8129f-ac37-41a0-aa2a-57b454e7d42a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-08T07:11:30+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45534926-4ddd-4d2e-8fe6-df9605bd1b54 # text
+            handle: feedback
+            includeInCards: false
+            instructions: null
+            label: feedback
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c5a682b4-c017-4550-844b-df365467e7fa
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d5c41f49-5bf1-48a5-b7a2-ebad87ed9c97
+        userCondition: null
+handle: ridersFields
+hasTitleField: false
+icon: null
+name: 'Riders Fields'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

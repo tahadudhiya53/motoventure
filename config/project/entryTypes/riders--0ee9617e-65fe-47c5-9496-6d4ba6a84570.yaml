@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  de6e707f-c582-4665-a58a-cc3c5d914c9d:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-08T07:16:01+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 73667ce1-3ca0-4d09-b00c-cae72b4b6b8c # riders List
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dde0a5d9-059a-40cc-adfb-f7b5498934ff
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 347c7330-8f3c-4e89-90ba-68af1df84c5a
+        userCondition: null
+handle: riders
+hasTitleField: false
+icon: null
+name: Riders
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

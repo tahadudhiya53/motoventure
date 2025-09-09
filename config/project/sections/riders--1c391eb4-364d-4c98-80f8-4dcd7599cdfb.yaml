@@ -2,15 +2,15 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: f55eab90-ff2a-4ef7-aeec-0a27630a84d8 # home
-handle: home
-maxAuthors: null
-name: Home
+    uid: 9fa3fb42-c709-457a-99af-843722d2ee3f # Riders Fields
+handle: riders
+maxAuthors: 1
+name: Riders
 propagationMethod: all
 siteSettings:
   9326a226-f7d4-48b3-bf44-45175c2ea603: # motoventure
     enabledByDefault: true
     hasUrls: true
-    template: home.twig
-    uriFormat: __home__
-type: single
+    template: riders/_entry.twig
+    uriFormat: 'riders/{slug}'
+type: channel

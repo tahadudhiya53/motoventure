@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 9daa6e13-8d20-4ccf-badd-4899f5bb0726 # Gear
+handle: gear
+maxAuthors: 1
+name: Gear
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9326a226-f7d4-48b3-bf44-45175c2ea603: # motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: gear.twig
+    uriFormat: gear
+type: single

@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: c7c86019-3a63-4a80-95b7-58e7f14c1456 # StoriesFields
+handle: stories
+maxAuthors: 1
+name: Stories
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9326a226-f7d4-48b3-bf44-45175c2ea603: # motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: stories.twig
+    uriFormat: 'stories/{slug}'
+type: channel

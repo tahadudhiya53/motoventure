@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: pageBuilder
+handle: storiesField
 instructions: null
-name: 'page Builder'
+name: 'Stories Field'
 searchable: false
 settings:
   createButtonLabel: null
@@ -12,26 +12,10 @@ settings:
       __assoc__:
         -
           - uid
-          - e2987978-22f5-47b4-a0b3-8d0ebda69925 # hero
+          - c7c86019-3a63-4a80-95b7-58e7f14c1456 # StoriesFields
         -
           - group
-          - 'page builder'
-    -
-      __assoc__:
-        -
-          - uid
-          - a74cc84d-eb39-449b-8092-8c9ca0e97a92 # story
-        -
-          - group
-          - 'page builder'
-    -
-      __assoc__:
-        -
-          - uid
-          - 0ee9617e-65fe-47c5-9496-6d4ba6a84570 # Riders
-        -
-          - group
-          - 'page builder'
+          - General
   includeTableView: false
   maxEntries: null
   minEntries: null
